@@ -8,7 +8,7 @@ def partition(lst,start,end):
 	piv=lst[end]
 	index=start
 	tmp=0
-	for i in range(end):
+	for i in range(start,end):
 		if(lst[i]<=piv):
 			tmp=lst[i]
 			lst[i]=lst[index]
